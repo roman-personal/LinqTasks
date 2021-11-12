@@ -1,10 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LinqTasks {
+    // Телефонный справочник представляет собой коллекцию записей типа
+    // class Entry {
+    //    public string Name { get; set; } // имя абонента
+    //    public string Phone { get; set; } // номер телефона
+    //    public bool IsPortable { get; set; } // это мобильный телефон
+    // }
+    // Написать запрос возвращающий последовательность строк вида “1) Иван –8(915)555-22-33”,
+    // только для мобильных телефонов, отсортировать по имени абонента(без учета регистра)
+
     static class Task4 {
         public static void Run() {
             Console.WriteLine("Task4");

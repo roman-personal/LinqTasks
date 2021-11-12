@@ -2,6 +2,10 @@
 using System.Linq;
 
 namespace LinqTasks {
+    // Напишите запрос фильтрации «четное число в нечетной позиции»
+    // Пример: для последовательности 3, 4, 2, 1, 5, 6 после фильтрации
+    // должна получиться последовательность 4, 6
+
     static class Task3 {
         public static void Run() {
             Console.WriteLine("Task3");
