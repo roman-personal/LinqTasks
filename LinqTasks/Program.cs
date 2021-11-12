@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace LinqTasks {
+﻿namespace LinqTasks {
     class Program {
         static void Main(string[] args) {
             Task1.Run();
@@ -12,5 +8,4 @@ namespace LinqTasks {
             Task5.Run();
         }
     }
-
 }
